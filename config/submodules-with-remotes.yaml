@@ -1,0 +1,8 @@
+# Git Submodules Configuration
+# All paths are relative to the main repository root
+
+submodules:
+  - name: 
+    url: https://github.com/user/frontend-app.git
+    path: codecrafters/rust/codecrafters-http-server-rust  # Relative path from repo root
+    branch: master

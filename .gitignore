@@ -1,0 +1,38 @@
+# .gitignore for main repository
+# Ignores nested git repositories and various build artifacts
+
+# Ignore .git directories in subdirectories
+**/.git
+
+# Ignore arch folder
+arch/
+
+# Rust/Cargo generated files and folders
+target/
+Cargo.lock
+**/*.rs.bk
+*.pdb
+# Compiled executables
+**/*.exe
+**/*.dll
+**/*.so
+**/*.dylib
+# Rust formatting backup files
+*.rs.fmt
+
+# Python generated files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.pytest_cache/
+.tox/
+.ruff_cache/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+*.bak
+*.cache

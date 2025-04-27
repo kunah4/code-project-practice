@@ -1,0 +1,23 @@
+# Git Submodules Configuration
+# All paths are relative to the main repository root
+
+submodules:
+  - name: frontend
+    url: https://github.com/user/frontend-app.git
+    path: apps/frontend  # Relative path from repo root
+    branch: main
+
+  - name: backend
+    url: https://github.com/user/backend-service.git
+    path: apps/backend
+    branch: main
+
+  - name: shared-components
+    url: https://github.com/user/shared-components.git
+    path: libs/components
+    branch: develop
+
+  - name: docs
+    url: https://github.com/user/documentation.git
+    path: docs/site
+    branch: main
